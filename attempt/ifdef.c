@@ -1,5 +1,5 @@
 #include<stdio.h>
-#define AAA
+#define A
 
 #ifdef SMOKE
 	int a = 5;
@@ -11,6 +11,6 @@
 #endif
 
 int main(void){
-	printf("%d",a + 10);
+	printf("%d\n",a + 10);
 	return 0;
 }
